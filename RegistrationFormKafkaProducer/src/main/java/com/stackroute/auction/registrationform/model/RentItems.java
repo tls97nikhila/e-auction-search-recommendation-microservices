@@ -17,7 +17,7 @@ public class RentItems {
     @Id
     private Long itemid;
     private String itemName;
-    private String itemCategory;
+    private Category itemCategory;
     private int itemQuantity;
     private String itemDescription;
     private int itemDurationOfRent;
